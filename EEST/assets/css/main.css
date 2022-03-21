@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family:;
+	font-size: 16px;
+}
+header{
+	width: 100%;
+	height: 650px;
+	background-image: url(https://i.blogs.es/0ca5da/ambulo_polar_wide/840_560.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+}
+header #Textos{
+	margin-top: 152px;
+}
+header #Titulo{
+	
+}
+header #Subtitulo{
+	font-size: 42px;
+	font-weight: 300;
+	margin-bottom: 32px;
+}
+header #boton{
+	display: inline-block;
+	padding: 15px;
+	width: 150px;
+	border:1px solid #fff;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 16px;
+}
+#recorte-inf{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-width: 0 0 25vh 100vw;/*0top 0right 35ViewHeightBottom 100ViewWidthLeft*/
+	border-style: solid;
+	border-color: transparent transparent #fff transparent;
+}
+#recorte-sup{
+	z-index:10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-width: 25vh 100vw 0 0 ;/*0top 0right 35ViewHeightBottom 100ViewWidthLeft*/
+	border-style: solid;
+	border-color: #fff transparent transparent  transparent;
+}
+#contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+	padding: 52px 0 52px 0;
+	
+}
