@@ -30,7 +30,7 @@ header #Subtitulo{
 	font-weight: 300;
 	margin-bottom: 32px;
 }
-header #boton{
+header #Boton{
 	display: inline-block;
 	padding: 15px;
 	width: 150px;
@@ -49,20 +49,14 @@ header #boton{
 	border-style: solid;
 	border-color: transparent transparent #fff transparent;
 }
+#nuestra-info{
+	margin-top: 10vh;
+}
 #recorte-sup{
 	z-index:10;
 	position: absolute;
-	top: 0;
 	left: 0;
 	border-width: 25vh 100vw 0 0 ;/*0top 0right 35ViewHeightBottom 100ViewWidthLeft*/
 	border-style: solid;
 	border-color: #fff transparent transparent  transparent;
-}
-#contenedor{
-	width: 90%;
-	max-width: 1000px;
-	margin:auto;
-	overflow: hidden;
-	padding: 52px 0 52px 0;
-	
 }
