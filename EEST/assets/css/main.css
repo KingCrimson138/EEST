@@ -60,3 +60,6 @@ header #Boton{
 	border-style: solid;
 	border-color: #fff transparent transparent  transparent;
 }
+#titulo-foot{
+	text-align: center;
+}
