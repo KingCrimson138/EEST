@@ -63,3 +63,13 @@ header #Boton{
 #titulo-foot{
 	text-align: center;
 }
+footer #contact{
+	text-align: center;
+}
+footer .copyright {
+  color: #bbb;
+  font-size: 0.9rem;
+  margin: 0 0 2rem 0;
+  padding: 0;
+  text-align: center;
+}
