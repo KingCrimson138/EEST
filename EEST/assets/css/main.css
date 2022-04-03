@@ -10,7 +10,7 @@ body{
 header{
 	width: 100%;
 	height: 650px;
-	background-image: url(https://i.blogs.es/0ca5da/ambulo_polar_wide/840_560.jpg);
+	background-image: url(https://fondosmil.com/fondo/28258.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -60,16 +60,65 @@ header #Boton{
 	border-style: solid;
 	border-color: #fff transparent transparent  transparent;
 }
+#fotos{
+	width: 100%;
+	height: 1000px;
+	background-image: url(https://fondosmil.com/fondo/28258.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+}
+#recorte-sup-foto{
+	z-index:10;
+	position: absolute;
+	left: 0;
+	border-width: 25vh 100vw 0 0 ;/*0top 0right 35ViewHeightBottom 100ViewWidthLeft*/
+	border-style: solid;
+	border-color: #fff transparent transparent  transparent;
+}
+#recorte-inf-foto{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-width: 0 0 25vh 100vw;/*0top 0right 35ViewHeightBottom 100ViewWidthLeft*/
+	border-style: solid;
+	border-color: transparent transparent #fff transparent;
+}
+#inst{
+	margin-top: 12rem;
+	text-align: center;
+}
+#carousel{
+	margin-top: 2rem;
+}
 #titulo-foot{
 	text-align: center;
+}
+footer{
+
 }
 footer #contact{
 	text-align: center;
 }
 footer .copyright {
+	background-color: rgb(0, 0, 0);
+	height: 150px;
   color: #bbb;
   font-size: 0.9rem;
   margin: 0 0 2rem 0;
   padding: 0;
   text-align: center;
+  border-radius: 20px;
+}
+h6{
+	display: inline-block;
+}
+footer .icon{
+	position: absolute;
+	width: 60px;
+	height: 60px;
 }
