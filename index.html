@@ -1,38 +1,54 @@
 <html>
-	<head>
+<head>
 		<title>EESTN1</title>
 		<link rel="icon" href="images/icon.png"/>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-      crossorigin="anonymous"/>
-    <script src="https://kit.fontawesome.com/ea0c9f2316.js" crossorigin="anonymous"></script>
-	</head>
+	    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+	    rel="stylesheet"
+	    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+	    crossorigin="anonymous"/>
+	    <script src="https://kit.fontawesome.com/ea0c9f2316.js" crossorigin="anonymous"></script>
+</head>
 
-	<body>
-				
+<body>
+		<!-- Nav bar -->
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="bg-dark p-4">
+				<a href="#" id="boton-blanco">Inicio</a>
+				<a href="cooperadora.html" id="boton-naranja">Cooperadora</a>
+				<a href="tecnico_quimico.html" id="boton-naranja">Quimica</a>
+				<a href="tecnico_electronico.html" id="boton-naranja">Electronica</a>
+				<a href="tecnico_electromecanico.html" id="boton-naranja">Electromecanica</a>
+				<a href="contactos.html" id="boton-naranja">Contactos</a>
+			</div>
+		</div>
+		<nav class="navbar navbar-dark bg-dark">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			</div>
+		</nav>
+		<!-- Header -->
 		<header>
-			<!-- Header y boton-->
-			<div id="Textos">		
-				<h1 id="Subtitulo">Escuela De Educacion Secundaria Tecnica Martin Miguel De Güemes</h1>
-				<h2 id="Titulo">EEST N°1</h2>
-				<a id="boton" href="">Contactos</a>
-				<div id="Recorte-inf"></div>
+			<div id="banner">
+				<h1 id="titulo">EEST N°1</h1>
+				<h2 id="subtitulo">Escuela De Educacion SecundariaTecnica</h2>
+				<h2 id="subtitulo"> Martin Miguel De Güemes</h2>
+				<a id="boton-blanco" href="contactos.html">Contactos</a>
+				<div id="recorte-inf"></div>
 			</div>
 		</header>
-
 		<main>
-
-			<section id="Nuestra-info">
+			<section>
 				<div class="Container">
-					<h3 id="Sobre-nosotros">Sobre Nosotros</h3>
-					<h4 id="Autoridades">Tecnica Longchamps</h4>
-					<p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<h3>Sobre Nosotros</h3>
+					<h4>Tecnica Longchamps</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -78,7 +94,7 @@
 							<div class="card" style="width: 14rem;">
 							  <img src="..." class="card-img-top" alt="...">
 							  <div class="card-body">
-							  	<h5>Vice directora</h5>
+							  	<h5>Secretaria</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							  </div>
 							</div>
@@ -87,72 +103,12 @@
 							<div class="card" style="width: 14rem;">
 							  <img src="..." class="card-img-top" alt="...">
 							  <div class="card-body">
-							  	<h5>Jefe de preceptores</h5>
+							  	<h5>Jefe de taller</h5>
 							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							  </div>
 							</div>							
 						</div>
 					</div>
-
-					<h4>Con quienes trabajamos</h4>
-					<p>Trabajamos con empresas tales como: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-			</section>
-
-			<section id="Especialidades">
-				<div class="Container">
-					<h3>Perfiles Profesionales De Los Tecnicos (Especialidades)</h3>
-					<div class="row ">
-						<div class="col-4" >
-							<h5>Tecnico Quimico</h5>
-							<p>El Técnico del sector químico está capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de profesionalidad propios de su área y de responsabilidad social al:</p>
-							<ul>
-								<li>“Evaluar las demandas de los análisis planteados, interpretar adecuadamente el tipo de requerimiento y planificar las acciones correspondientes que permitan su resolución”</li>
-								<li>“Elaborar los cursos de acción adecuados para encarar la ejecución de las tareas planificadas”</li>
-								<li>“Gestionar y administrar el funcionamiento del ámbito de trabajo, las relaciones interpersonales y la provisión de los recursos”</li>
-								<li>“Realizar análisis de ensayos e interpretar sus resultados”</li>
-								<li>“Supervisar la ejecución de ensayos y análisis y la adecuación de los procedimientos a normas de calidad, seguridad y manejo adecuado de residuos”</li>
-								<li>“Generar y/o participar de emprendimientos vinculados con áreas de su profesionalidad”</li>
-								<li>“Operar y plantear mejoras en procesos químicos, físicos, fisicoquímicos y microbiológicos”</li>
-							</ul>
-							
-						</div>
-						<div class="col-4">
-							<h5>Tecnico Electronico</h5>
-							<p>El Técnico en Electrónica está capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de profesionalidad propios de su área y responsabilidad social, al:</p>
-							<ul>
-								<li>"Proyectar, componentes y equipos de electrónica analógica y/o digital, con tecnología electrónica estándar y de baja o mediana complejidad”</li>
-								<li>“Realizar ensayos y mediciones eléctricas y electrónicas en dispositivos, componentes, equipos e instalaciones con electrónica analógica y/o digital, estándar de baja o mediana complejidad”</li>
-								<li>“Operar componentes, productos y equipos con electrónica analógica y/o digital”</li>
-								<li>“Realizar los mantenimientos, predictivo, preventivo, funcional operativo, y correctivo de componentes, productos y equipos con electrónica estándar, analógica y/o digital, de baja o mediana complejidad”</li>
-								<li>“Montar dispositivos y componentes con electrónica analógica y/o digital, estándar de baja o mediana complejidad”</li>
-								<li>“Instalar productos y equipos con electrónica analógica y/o digital”</li>
-								<li>“Realizar la selección, asesoramiento y comercialización de dispositivos, componentes, productos y equipos con electrónica analógica y/o digital, estándar de baja o mediana complejidad”
-								</li>
-								<li>“Generar emprendimientos con electrónica analógica y/o digital de baja o mediana complejidad”</li>
-							</ul>
-						</div>
-						<div class="col-4">
-							<h5>Tecnico Electromecanico	</h5>
-							<p>El Técnico del sector Electromecánico está capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de profesionalidad propios de su área y de responsabilidad social al:</p>
-							<ul>
-								<li>"Proyectar equipos e instalaciones mecánicas, electromecánicas, de sistemas neumáticos, oleohidraúlicos; circuitos eléctricos y de control de automatismos; herramientas y dispositivos”</li>
-								<li>“Realizar ensayos de materiales y ensayos eléctricos, mecánicos, y electromecánicos”
-								</li>
-								<li>“Operar equipos e instalaciones y dispositivos de accionamiento y control de la producción y máquinas herramientas”</li>
-								<li>“Realizar los mantenimientos, predictivo, preventivo, funcional operativo, y correctivo de componentes, equipos e instalaciones electromecánicas”</li>
-								<li>“Montar dispositivos y componentes de equipos e instalaciones mecánicas eléctricas, de sistemas neumáticos, oleohidraúlicos y electromecánicas”</li>
-								<li>“Instalar líneas de consumo y distribución de energía eléctrica de baja y media tensión”</li>
-								<li>“Realizar la selección, asesoramiento y comercialización de equipamiento e instalaciones electromecánicas”</li>
-								<li>“Generar emprendimientos”</li>
-							</ul>							
-						</div>
-					</div>
-				
 				</div>
 			</section>
 
@@ -208,42 +164,54 @@
 				</div>
 				<div id="Recorte-inf-foto"></div>
 			</section>
+			<section>
+				<div class="Container">
+					<h4>Practicas profesionalizantes</h4>
+					<p> Se entiende por prácticas profesionalizantes aquellas estrategias y actividades formativas que, como parte de la propuesta curricular, tienen como propósito que los estudiantes consoliden, integren y/o amplíen las capacidades y saberes que se corresponden con el perfil profesional en el que se están formando. Son organizadas y coordinadas por la institución educativa, se desarrollan dentro o fuera de tal institución y están referenciadas en situaciones de trabajo.<br>
+					-abc.gob.ar
+					</p>
+				</div>
+				<div class="Container">
+					<h3>Perfiles profesionales de los tecnicos (Especialidades)</h3>
+					<div class="row ">
+						<div class="col-4">
+							<a href="tecnico_electromecanico.html" id="boton-naranja">Tecnico Electomecanico</a>
+						</div>
+						<div class="col-4">
+							<a href="tecnico_electronico.html" id="boton-naranja">Tecnico Electronico</a>
+						</div>
+						<div class="col-4">
+							<a href="tecnico_quimico.html" id="boton-naranja">Tecnico Quimico</a>
+						</div>
+					</div>
+				</div>
 
+				<div id="final">
+					<div>
+						<p>Te estamos esperando</p>
+						<h5>Tecnica Uno</h5>
+						<p>____________</p>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<footer>
 			<div class="Container-fluid">
-				<div class="row">
-					<div class="col-3">
-						<h4>Otros vinculos</h4>
-						<a  href="cooperadora.html" target="_BLANK" class="fa-brands fa-blackberry" id="links">Abonar coperadora</a>
-					</div>
-					<div class="col-6">
-						<h4>Contactenos</h4>
-						<a  href="" target="_BLANK" class="fa-brands fa-facebook" id="links">FACEBOOK</a>
-						<a  href="" target="_BLANK" class="fa-brands fa-instagram" id="links">INSTAGRAM</a>
-
-					</div>
-					<div class="col-3">
-						<h4>Otros</h4>
-					</div>
-				</div>
-			
-					<img src="images/icon.png" id="banner">
-				
-			</div>
-			<div class="copyright"> 
-				<h6 onclick="img()" onmouseover="" id="texts1" >&copy;Desarrollado por:</h6>
+				<img src="images/icon.png" id="banner">
+				<div class="copyright"> 
+				<h6 onclick="img()" onmouseover="" id="CopyText" >&copy;Desarrollado por:</h6>
 				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Record_icon_AFS.svg/1200px-Record_icon_AFS.svg.png" onclick="img()" class="icon" onmouseover="" style="cursor: pointer;"></img>
-				<p id="texts2">2022</p>
+				<p id="CopyText" onclick="img()">2022</p>
+				</div>
 			</div>
 		</footer>
 		<script>
 			function img(){
-		    var url = "https://";
+		    var url = "https://www.";
     	    window.open(url,"_BLANK");
     	}
     	</script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	</body>
+</body>
 <html>
